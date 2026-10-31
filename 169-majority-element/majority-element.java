@@ -14,14 +14,6 @@ class Solution {
             else
                 count--;
         }
-        int c1=0;
-        for(i=0; i<nums.length; i++)
-        {
-            if(nums[i]==el)
-                c1++;
-        }
-        if(c1>nums.length/2)
         return el;
-        return -1;
     }
 }
